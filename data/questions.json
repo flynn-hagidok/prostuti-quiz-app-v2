@@ -1,0 +1,1172 @@
+[
+    {
+        "id": 1,
+        "subject": "HTML",
+        "difficulty": "easy",
+        "question": "What does HTML stand for?",
+        "options": [
+            "Hyper Text Markup Language",
+            "High Text Machine Language",
+            "Hyper Tool Markup Language",
+            "Home Text Markup Language"
+        ],
+        "correctAnswer": "Hyper Text Markup Language"
+    },
+    {
+        "id": 2,
+        "subject": "HTML",
+        "difficulty": "easy",
+        "question": "Which tag creates a paragraph?",
+        "options": [
+            "<p>",
+            "<h1>",
+            "<div>",
+            "<span>"
+        ],
+        "correctAnswer": "<p>"
+    },
+    {
+        "id": 3,
+        "subject": "HTML",
+        "difficulty": "easy",
+        "question": "Which tag creates a hyperlink?",
+        "options": [
+            "<a>",
+            "<link>",
+            "<href>",
+            "<url>"
+        ],
+        "correctAnswer": "<a>"
+    },
+    {
+        "id": 4,
+        "subject": "HTML",
+        "difficulty": "easy",
+        "question": "Which tag displays an image?",
+        "options": [
+            "<img>",
+            "<image>",
+            "<picture-src>",
+            "<src>"
+        ],
+        "correctAnswer": "<img>"
+    },
+    {
+        "id": 5,
+        "subject": "HTML",
+        "difficulty": "easy",
+        "question": "Which tag represents the largest heading?",
+        "options": [
+            "<h1>",
+            "<h6>",
+            "<head>",
+            "<heading>"
+        ],
+        "correctAnswer": "<h1>"
+    },
+    {
+        "id": 6,
+        "subject": "HTML",
+        "difficulty": "easy",
+        "question": "Which attribute specifies an image source?",
+        "options": [
+            "src",
+            "href",
+            "alt",
+            "target"
+        ],
+        "correctAnswer": "src"
+    },
+    {
+        "id": 7,
+        "subject": "HTML",
+        "difficulty": "easy",
+        "question": "Which tag creates an unordered list?",
+        "options": [
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<list>"
+        ],
+        "correctAnswer": "<ul>"
+    },
+    {
+        "id": 8,
+        "subject": "HTML",
+        "difficulty": "easy",
+        "question": "Which tag inserts a line break?",
+        "options": [
+            "<br>",
+            "<break>",
+            "<hr>",
+            "<lb>"
+        ],
+        "correctAnswer": "<br>"
+    },
+    {
+        "id": 9,
+        "subject": "HTML",
+        "difficulty": "easy",
+        "question": "Which tag creates a button?",
+        "options": [
+            "<button>",
+            "<btn>",
+            "<input-button>",
+            "<click>"
+        ],
+        "correctAnswer": "<button>"
+    },
+    {
+        "id": 10,
+        "subject": "HTML",
+        "difficulty": "easy",
+        "question": "Which element contains the visible page content?",
+        "options": [
+            "<body>",
+            "<head>",
+            "<title>",
+            "<meta>"
+        ],
+        "correctAnswer": "<body>"
+    },
+    {
+        "id": 11,
+        "subject": "HTML",
+        "difficulty": "medium",
+        "question": "Which attribute provides alternative text for an image?",
+        "options": [
+            "alt",
+            "title",
+            "src",
+            "name"
+        ],
+        "correctAnswer": "alt"
+    },
+    {
+        "id": 12,
+        "subject": "HTML",
+        "difficulty": "medium",
+        "question": "Which input type is used for email validation?",
+        "options": [
+            "email",
+            "text",
+            "mail",
+            "string"
+        ],
+        "correctAnswer": "email"
+    },
+    {
+        "id": 13,
+        "subject": "HTML",
+        "difficulty": "medium",
+        "question": "Which element groups related form controls?",
+        "options": [
+            "<fieldset>",
+            "<section>",
+            "<group>",
+            "<article>"
+        ],
+        "correctAnswer": "<fieldset>"
+    },
+    {
+        "id": 14,
+        "subject": "HTML",
+        "difficulty": "medium",
+        "question": "Which attribute makes an input mandatory?",
+        "options": [
+            "required",
+            "validate",
+            "mandatory",
+            "checked"
+        ],
+        "correctAnswer": "required"
+    },
+    {
+        "id": 15,
+        "subject": "HTML",
+        "difficulty": "medium",
+        "question": "Which semantic element represents site navigation?",
+        "options": [
+            "<nav>",
+            "<menuitem>",
+            "<navigate>",
+            "<aside>"
+        ],
+        "correctAnswer": "<nav>"
+    },
+    {
+        "id": 16,
+        "subject": "HTML",
+        "difficulty": "medium",
+        "question": "Which attribute opens a link in a new browsing context?",
+        "options": [
+            "target=\"_blank\"",
+            "target=\"_self\"",
+            "open=\"new\"",
+            "href=\"_blank\""
+        ],
+        "correctAnswer": "target=\"_blank\""
+    },
+    {
+        "id": 17,
+        "subject": "HTML",
+        "difficulty": "medium",
+        "question": "Which element defines a table row?",
+        "options": [
+            "<tr>",
+            "<td>",
+            "<th>",
+            "<table-row>"
+        ],
+        "correctAnswer": "<tr>"
+    },
+    {
+        "id": 18,
+        "subject": "HTML",
+        "difficulty": "medium",
+        "question": "Which element is used for a multiline text input?",
+        "options": [
+            "<textarea>",
+            "<input>",
+            "<text>",
+            "<multiline>"
+        ],
+        "correctAnswer": "<textarea>"
+    },
+    {
+        "id": 19,
+        "subject": "HTML",
+        "difficulty": "medium",
+        "question": "Which attribute connects a label to an input ID?",
+        "options": [
+            "for",
+            "name",
+            "target",
+            "value"
+        ],
+        "correctAnswer": "for"
+    },
+    {
+        "id": 20,
+        "subject": "HTML",
+        "difficulty": "medium",
+        "question": "Which tag defines the main content of a document?",
+        "options": [
+            "<main>",
+            "<content>",
+            "<body-main>",
+            "<primary>"
+        ],
+        "correctAnswer": "<main>"
+    },
+    {
+        "id": 21,
+        "subject": "HTML",
+        "difficulty": "hard",
+        "question": "Which attribute enables native lazy loading for images?",
+        "options": [
+            "loading=\"lazy\"",
+            "lazy=\"true\"",
+            "defer=\"image\"",
+            "fetch=\"later\""
+        ],
+        "correctAnswer": "loading=\"lazy\""
+    },
+    {
+        "id": 22,
+        "subject": "HTML",
+        "difficulty": "hard",
+        "question": "Which attribute helps prevent reverse tabnabbing on external links?",
+        "options": [
+            "rel=\"noopener\"",
+            "rel=\"stylesheet\"",
+            "target=\"_self\"",
+            "type=\"safe\""
+        ],
+        "correctAnswer": "rel=\"noopener\""
+    },
+    {
+        "id": 23,
+        "subject": "HTML",
+        "difficulty": "hard",
+        "question": "Which element provides multiple image sources for responsive images?",
+        "options": [
+            "<picture>",
+            "<figure>",
+            "<canvas>",
+            "<map>"
+        ],
+        "correctAnswer": "<picture>"
+    },
+    {
+        "id": 24,
+        "subject": "HTML",
+        "difficulty": "hard",
+        "question": "Which attribute specifies the language of an HTML document?",
+        "options": [
+            "lang",
+            "locale",
+            "language",
+            "xml"
+        ],
+        "correctAnswer": "lang"
+    },
+    {
+        "id": 25,
+        "subject": "HTML",
+        "difficulty": "hard",
+        "question": "Which HTML element represents a self-contained composition?",
+        "options": [
+            "<article>",
+            "<span>",
+            "<b>",
+            "<label>"
+        ],
+        "correctAnswer": "<article>"
+    },
+    {
+        "id": 26,
+        "subject": "HTML",
+        "difficulty": "hard",
+        "question": "Which attribute provides a custom data value on an element?",
+        "options": [
+            "data-*",
+            "custom-*",
+            "value-*",
+            "meta-*"
+        ],
+        "correctAnswer": "data-*"
+    },
+    {
+        "id": 27,
+        "subject": "HTML",
+        "difficulty": "hard",
+        "question": "Which attribute is used to merge table columns?",
+        "options": [
+            "colspan",
+            "rowspan",
+            "columns",
+            "merge"
+        ],
+        "correctAnswer": "colspan"
+    },
+    {
+        "id": 28,
+        "subject": "HTML",
+        "difficulty": "hard",
+        "question": "Which element displays fallback content when JavaScript is disabled?",
+        "options": [
+            "<noscript>",
+            "<fallback>",
+            "<nojs>",
+            "<scriptless>"
+        ],
+        "correctAnswer": "<noscript>"
+    },
+    {
+        "id": 29,
+        "subject": "HTML",
+        "difficulty": "hard",
+        "question": "Which element defines a reusable HTML fragment that is not rendered immediately?",
+        "options": [
+            "<template>",
+            "<fragment>",
+            "<slot>",
+            "<content>"
+        ],
+        "correctAnswer": "<template>"
+    },
+    {
+        "id": 30,
+        "subject": "HTML",
+        "difficulty": "hard",
+        "question": "Which attribute is commonly used to associate a datalist with an input?",
+        "options": [
+            "list",
+            "data",
+            "options",
+            "source"
+        ],
+        "correctAnswer": "list"
+    },
+    {
+        "id": 31,
+        "subject": "CSS",
+        "difficulty": "easy",
+        "question": "What does CSS stand for?",
+        "options": [
+            "Cascading Style Sheets",
+            "Computer Style System",
+            "Creative Style Sheets",
+            "Colorful Style Syntax"
+        ],
+        "correctAnswer": "Cascading Style Sheets"
+    },
+    {
+        "id": 32,
+        "subject": "CSS",
+        "difficulty": "easy",
+        "question": "Which property changes text color?",
+        "options": [
+            "color",
+            "font-color",
+            "text-style",
+            "background"
+        ],
+        "correctAnswer": "color"
+    },
+    {
+        "id": 33,
+        "subject": "CSS",
+        "difficulty": "easy",
+        "question": "Which property changes background color?",
+        "options": [
+            "background-color",
+            "color",
+            "bg",
+            "background-image"
+        ],
+        "correctAnswer": "background-color"
+    },
+    {
+        "id": 34,
+        "subject": "CSS",
+        "difficulty": "easy",
+        "question": "Which property changes font size?",
+        "options": [
+            "font-size",
+            "text-size",
+            "size",
+            "font-style"
+        ],
+        "correctAnswer": "font-size"
+    },
+    {
+        "id": 35,
+        "subject": "CSS",
+        "difficulty": "easy",
+        "question": "Which symbol selects a class?",
+        "options": [
+            ".",
+            "#",
+            "*",
+            "@"
+        ],
+        "correctAnswer": "."
+    },
+    {
+        "id": 36,
+        "subject": "CSS",
+        "difficulty": "easy",
+        "question": "Which symbol selects an ID?",
+        "options": [
+            "#",
+            ".",
+            "*",
+            "&"
+        ],
+        "correctAnswer": "#"
+    },
+    {
+        "id": 37,
+        "subject": "CSS",
+        "difficulty": "easy",
+        "question": "Which property adds space inside an element border?",
+        "options": [
+            "padding",
+            "margin",
+            "gap",
+            "outline"
+        ],
+        "correctAnswer": "padding"
+    },
+    {
+        "id": 38,
+        "subject": "CSS",
+        "difficulty": "easy",
+        "question": "Which property adds space outside an element border?",
+        "options": [
+            "margin",
+            "padding",
+            "border",
+            "height"
+        ],
+        "correctAnswer": "margin"
+    },
+    {
+        "id": 39,
+        "subject": "CSS",
+        "difficulty": "easy",
+        "question": "Which property makes text bold?",
+        "options": [
+            "font-weight",
+            "font-size",
+            "font-style",
+            "text-align"
+        ],
+        "correctAnswer": "font-weight"
+    },
+    {
+        "id": 40,
+        "subject": "CSS",
+        "difficulty": "easy",
+        "question": "Which value centers inline text horizontally?",
+        "options": [
+            "text-align: center",
+            "align: middle",
+            "justify: center",
+            "float: center"
+        ],
+        "correctAnswer": "text-align: center"
+    },
+    {
+        "id": 41,
+        "subject": "CSS",
+        "difficulty": "medium",
+        "question": "Which display value enables Flexbox?",
+        "options": [
+            "flex",
+            "grid",
+            "block",
+            "inline"
+        ],
+        "correctAnswer": "flex"
+    },
+    {
+        "id": 42,
+        "subject": "CSS",
+        "difficulty": "medium",
+        "question": "Which display value enables CSS Grid?",
+        "options": [
+            "grid",
+            "flex",
+            "table",
+            "inline"
+        ],
+        "correctAnswer": "grid"
+    },
+    {
+        "id": 43,
+        "subject": "CSS",
+        "difficulty": "medium",
+        "question": "Which property controls spacing between grid items?",
+        "options": [
+            "gap",
+            "padding",
+            "border",
+            "outline"
+        ],
+        "correctAnswer": "gap"
+    },
+    {
+        "id": 44,
+        "subject": "CSS",
+        "difficulty": "medium",
+        "question": "Which property controls stacking order?",
+        "options": [
+            "z-index",
+            "position",
+            "display",
+            "overflow"
+        ],
+        "correctAnswer": "z-index"
+    },
+    {
+        "id": 45,
+        "subject": "CSS",
+        "difficulty": "medium",
+        "question": "Which property rounds element corners?",
+        "options": [
+            "border-radius",
+            "border-style",
+            "outline-radius",
+            "corner"
+        ],
+        "correctAnswer": "border-radius"
+    },
+    {
+        "id": 46,
+        "subject": "CSS",
+        "difficulty": "medium",
+        "question": "Which property creates a shadow around a box?",
+        "options": [
+            "box-shadow",
+            "text-shadow",
+            "filter-color",
+            "shadow-box"
+        ],
+        "correctAnswer": "box-shadow"
+    },
+    {
+        "id": 47,
+        "subject": "CSS",
+        "difficulty": "medium",
+        "question": "Which media feature checks viewport width?",
+        "options": [
+            "max-width",
+            "font-size",
+            "screen-width",
+            "device-color"
+        ],
+        "correctAnswer": "max-width"
+    },
+    {
+        "id": 48,
+        "subject": "CSS",
+        "difficulty": "medium",
+        "question": "Which property controls the main-axis alignment in Flexbox?",
+        "options": [
+            "justify-content",
+            "align-items",
+            "align-self",
+            "flex-wrap"
+        ],
+        "correctAnswer": "justify-content"
+    },
+    {
+        "id": 49,
+        "subject": "CSS",
+        "difficulty": "medium",
+        "question": "Which property allows flex items to move to another line?",
+        "options": [
+            "flex-wrap",
+            "flex-flow-direction",
+            "flex-grow",
+            "align-content"
+        ],
+        "correctAnswer": "flex-wrap"
+    },
+    {
+        "id": 50,
+        "subject": "CSS",
+        "difficulty": "medium",
+        "question": "Which property controls whether overflowing content is clipped or scrollable?",
+        "options": [
+            "overflow",
+            "display",
+            "visibility",
+            "opacity"
+        ],
+        "correctAnswer": "overflow"
+    },
+    {
+        "id": 51,
+        "subject": "CSS",
+        "difficulty": "hard",
+        "question": "Which selector has the highest specificity among these?",
+        "options": [
+            "#header",
+            ".header",
+            "header",
+            "*"
+        ],
+        "correctAnswer": "#header"
+    },
+    {
+        "id": 52,
+        "subject": "CSS",
+        "difficulty": "hard",
+        "question": "Which pseudo-class selects an element when its pointer is over it?",
+        "options": [
+            ":hover",
+            ":focus",
+            ":active",
+            ":visited"
+        ],
+        "correctAnswer": ":hover"
+    },
+    {
+        "id": 53,
+        "subject": "CSS",
+        "difficulty": "hard",
+        "question": "Which CSS function creates a responsive range with minimum and maximum limits?",
+        "options": [
+            "clamp()",
+            "calc()",
+            "var()",
+            "minmax()"
+        ],
+        "correctAnswer": "clamp()"
+    },
+    {
+        "id": 54,
+        "subject": "CSS",
+        "difficulty": "hard",
+        "question": "Which property defines grid column tracks?",
+        "options": [
+            "grid-template-columns",
+            "grid-auto-flow",
+            "grid-column-start",
+            "grid-area"
+        ],
+        "correctAnswer": "grid-template-columns"
+    },
+    {
+        "id": 55,
+        "subject": "CSS",
+        "difficulty": "hard",
+        "question": "Which CSS unit is relative to the root element font size?",
+        "options": [
+            "rem",
+            "em",
+            "px",
+            "vw"
+        ],
+        "correctAnswer": "rem"
+    },
+    {
+        "id": 56,
+        "subject": "CSS",
+        "difficulty": "hard",
+        "question": "Which property sets the origin point for transforms?",
+        "options": [
+            "transform-origin",
+            "transform-style",
+            "perspective",
+            "translate"
+        ],
+        "correctAnswer": "transform-origin"
+    },
+    {
+        "id": 57,
+        "subject": "CSS",
+        "difficulty": "hard",
+        "question": "Which pseudo-element inserts generated content before an element's content?",
+        "options": [
+            "::before",
+            "::after",
+            ":first-child",
+            "::marker"
+        ],
+        "correctAnswer": "::before"
+    },
+    {
+        "id": 58,
+        "subject": "CSS",
+        "difficulty": "hard",
+        "question": "Which property controls how a replaced image fits inside its box?",
+        "options": [
+            "object-fit",
+            "background-size",
+            "image-fit",
+            "aspect-ratio"
+        ],
+        "correctAnswer": "object-fit"
+    },
+    {
+        "id": 59,
+        "subject": "CSS",
+        "difficulty": "hard",
+        "question": "Which value positions an element relative to the viewport?",
+        "options": [
+            "fixed",
+            "absolute",
+            "relative",
+            "static"
+        ],
+        "correctAnswer": "fixed"
+    },
+    {
+        "id": 60,
+        "subject": "CSS",
+        "difficulty": "hard",
+        "question": "Which function accesses a CSS custom property?",
+        "options": [
+            "var()",
+            "get()",
+            "attr()",
+            "value()"
+        ],
+        "correctAnswer": "var()"
+    },
+    {
+        "id": 61,
+        "subject": "JavaScript",
+        "difficulty": "easy",
+        "question": "Which keyword declares a block-scoped variable that can be reassigned?",
+        "options": [
+            "let",
+            "const",
+            "static",
+            "define"
+        ],
+        "correctAnswer": "let"
+    },
+    {
+        "id": 62,
+        "subject": "JavaScript",
+        "difficulty": "easy",
+        "question": "Which keyword declares a variable that cannot be reassigned?",
+        "options": [
+            "const",
+            "let",
+            "var",
+            "change"
+        ],
+        "correctAnswer": "const"
+    },
+    {
+        "id": 63,
+        "subject": "JavaScript",
+        "difficulty": "easy",
+        "question": "Which method prints output to the browser console?",
+        "options": [
+            "console.log()",
+            "print()",
+            "echo()",
+            "log.console()"
+        ],
+        "correctAnswer": "console.log()"
+    },
+    {
+        "id": 64,
+        "subject": "JavaScript",
+        "difficulty": "easy",
+        "question": "Which method selects an element by ID?",
+        "options": [
+            "getElementById()",
+            "queryById()",
+            "getId()",
+            "selectId()"
+        ],
+        "correctAnswer": "getElementById()"
+    },
+    {
+        "id": 65,
+        "subject": "JavaScript",
+        "difficulty": "easy",
+        "question": "Which method adds an item to the end of an array?",
+        "options": [
+            "push()",
+            "pop()",
+            "shift()",
+            "slice()"
+        ],
+        "correctAnswer": "push()"
+    },
+    {
+        "id": 66,
+        "subject": "JavaScript",
+        "difficulty": "easy",
+        "question": "Which operator checks strict equality?",
+        "options": [
+            "===",
+            "==",
+            "=",
+            "!="
+        ],
+        "correctAnswer": "==="
+    },
+    {
+        "id": 67,
+        "subject": "JavaScript",
+        "difficulty": "easy",
+        "question": "Which data type represents true or false?",
+        "options": [
+            "boolean",
+            "string",
+            "number",
+            "object"
+        ],
+        "correctAnswer": "boolean"
+    },
+    {
+        "id": 68,
+        "subject": "JavaScript",
+        "difficulty": "easy",
+        "question": "Which method converts JSON text into a JavaScript value?",
+        "options": [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "JSON.convert()",
+            "JSON.read()"
+        ],
+        "correctAnswer": "JSON.parse()"
+    },
+    {
+        "id": 69,
+        "subject": "JavaScript",
+        "difficulty": "easy",
+        "question": "Which method converts a JavaScript value into JSON text?",
+        "options": [
+            "JSON.stringify()",
+            "JSON.parse()",
+            "JSON.encode()",
+            "JSON.object()"
+        ],
+        "correctAnswer": "JSON.stringify()"
+    },
+    {
+        "id": 70,
+        "subject": "JavaScript",
+        "difficulty": "easy",
+        "question": "Which method registers an event handler?",
+        "options": [
+            "addEventListener()",
+            "addEvent()",
+            "listen()",
+            "onEvent()"
+        ],
+        "correctAnswer": "addEventListener()"
+    },
+    {
+        "id": 71,
+        "subject": "JavaScript",
+        "difficulty": "medium",
+        "question": "Which array method creates a new array by transforming each item?",
+        "options": [
+            "map()",
+            "forEach()",
+            "find()",
+            "some()"
+        ],
+        "correctAnswer": "map()"
+    },
+    {
+        "id": 72,
+        "subject": "JavaScript",
+        "difficulty": "medium",
+        "question": "Which array method returns elements matching a condition?",
+        "options": [
+            "filter()",
+            "map()",
+            "reduce()",
+            "push()"
+        ],
+        "correctAnswer": "filter()"
+    },
+    {
+        "id": 73,
+        "subject": "JavaScript",
+        "difficulty": "medium",
+        "question": "Which array method returns the first matching element?",
+        "options": [
+            "find()",
+            "filter()",
+            "every()",
+            "sort()"
+        ],
+        "correctAnswer": "find()"
+    },
+    {
+        "id": 74,
+        "subject": "JavaScript",
+        "difficulty": "medium",
+        "question": "Which function repeatedly executes code at a specified interval?",
+        "options": [
+            "setInterval()",
+            "setTimeout()",
+            "clearInterval()",
+            "requestAnimationFrame()"
+        ],
+        "correctAnswer": "setInterval()"
+    },
+    {
+        "id": 75,
+        "subject": "JavaScript",
+        "difficulty": "medium",
+        "question": "Which function stops a timer created with setInterval()?",
+        "options": [
+            "clearInterval()",
+            "stopInterval()",
+            "clearTimeout()",
+            "cancelTimer()"
+        ],
+        "correctAnswer": "clearInterval()"
+    },
+    {
+        "id": 76,
+        "subject": "JavaScript",
+        "difficulty": "medium",
+        "question": "Which browser API stores string data across page reloads?",
+        "options": [
+            "localStorage",
+            "sessionMemory",
+            "console",
+            "history.state"
+        ],
+        "correctAnswer": "localStorage"
+    },
+    {
+        "id": 77,
+        "subject": "JavaScript",
+        "difficulty": "medium",
+        "question": "Which keyword waits for a Promise inside an async function?",
+        "options": [
+            "await",
+            "wait",
+            "pause",
+            "yield"
+        ],
+        "correctAnswer": "await"
+    },
+    {
+        "id": 78,
+        "subject": "JavaScript",
+        "difficulty": "medium",
+        "question": "Which method requests a resource over the network?",
+        "options": [
+            "fetch()",
+            "requestFile()",
+            "getJSON()",
+            "loadURL()"
+        ],
+        "correctAnswer": "fetch()"
+    },
+    {
+        "id": 79,
+        "subject": "JavaScript",
+        "difficulty": "medium",
+        "question": "Which array method combines items into one accumulated value?",
+        "options": [
+            "reduce()",
+            "filter()",
+            "find()",
+            "includes()"
+        ],
+        "correctAnswer": "reduce()"
+    },
+    {
+        "id": 80,
+        "subject": "JavaScript",
+        "difficulty": "medium",
+        "question": "Which operator provides a fallback only for null or undefined?",
+        "options": [
+            "??",
+            "||",
+            "&&",
+            "?."
+        ],
+        "correctAnswer": "??"
+    },
+    {
+        "id": 81,
+        "subject": "JavaScript",
+        "difficulty": "hard",
+        "question": "What is a closure in JavaScript?",
+        "options": [
+            "A function retaining access to its lexical scope",
+            "A way to close browser tabs",
+            "A method for deleting objects",
+            "A CSS animation"
+        ],
+        "correctAnswer": "A function retaining access to its lexical scope"
+    },
+    {
+        "id": 82,
+        "subject": "JavaScript",
+        "difficulty": "hard",
+        "question": "What does Promise.all() do when one input Promise rejects?",
+        "options": [
+            "Rejects with that reason",
+            "Always resolves",
+            "Ignores the rejection",
+            "Retries the Promise"
+        ],
+        "correctAnswer": "Rejects with that reason"
+    },
+    {
+        "id": 83,
+        "subject": "JavaScript",
+        "difficulty": "hard",
+        "question": "What is the result of typeof null?",
+        "options": [
+            "object",
+            "null",
+            "undefined",
+            "boolean"
+        ],
+        "correctAnswer": "object"
+    },
+    {
+        "id": 84,
+        "subject": "JavaScript",
+        "difficulty": "hard",
+        "question": "Which method creates a shallow copy of an array?",
+        "options": [
+            "slice()",
+            "push()",
+            "pop()",
+            "shift()"
+        ],
+        "correctAnswer": "slice()"
+    },
+    {
+        "id": 85,
+        "subject": "JavaScript",
+        "difficulty": "hard",
+        "question": "Which collection stores unique values?",
+        "options": [
+            "Set",
+            "Array",
+            "Map",
+            "Object"
+        ],
+        "correctAnswer": "Set"
+    },
+    {
+        "id": 86,
+        "subject": "JavaScript",
+        "difficulty": "hard",
+        "question": "Which method schedules a callback as a microtask?",
+        "options": [
+            "queueMicrotask()",
+            "setTimeout()",
+            "setInterval()",
+            "requestAnimationFrame()"
+        ],
+        "correctAnswer": "queueMicrotask()"
+    },
+    {
+        "id": 87,
+        "subject": "JavaScript",
+        "difficulty": "hard",
+        "question": "Which syntax safely accesses a property on a possibly null object?",
+        "options": [
+            "user?.name",
+            "user.name!",
+            "user->name",
+            "user::name"
+        ],
+        "correctAnswer": "user?.name"
+    },
+    {
+        "id": 88,
+        "subject": "JavaScript",
+        "difficulty": "hard",
+        "question": "What does Object.freeze() prevent on an object itself?",
+        "options": [
+            "Adding, deleting or changing its own properties",
+            "All nested object mutations",
+            "Reading properties",
+            "Creating references"
+        ],
+        "correctAnswer": "Adding, deleting or changing its own properties"
+    },
+    {
+        "id": 89,
+        "subject": "JavaScript",
+        "difficulty": "hard",
+        "question": "Which method returns a Promise that settles after every input Promise settles?",
+        "options": [
+            "Promise.allSettled()",
+            "Promise.all()",
+            "Promise.race()",
+            "Promise.any()"
+        ],
+        "correctAnswer": "Promise.allSettled()"
+    },
+    {
+        "id": 90,
+        "subject": "JavaScript",
+        "difficulty": "hard",
+        "question": "Which statement about async functions is correct?",
+        "options": [
+            "They always return a Promise",
+            "They always run in parallel",
+            "They cannot throw errors",
+            "They block the browser thread"
+        ],
+        "correctAnswer": "They always return a Promise"
+    }
+]

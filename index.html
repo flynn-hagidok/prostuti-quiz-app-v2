@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Prostuti quiz practice with subjects, difficulty, history and mistake review." />
+    <title>Prostuti | Quiz App v2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
+
+    <!-- Our JavaScript -->
+    <script src="./js/app.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a class="logo" href="#home" id="logoLink">📚 Prostuti</a>
+
+            <div class="nav-links">
+                <button class="nav-btn active" data-page="home" type="button">Home</button>
+                <button class="nav-btn" data-page="history" type="button">History</button>
+                <button class="nav-btn" data-page="mistakes" type="button">Mistake Review</button>
+            </div>
+
+            <div class="high-score">
+                🏆 High Score: <span id="highScore">0%</span>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!-- Home Page -->
+        <section id="homePage">
+
+            <span class="badge">Interactive Exam Preparation</span>
+
+            <h1 class="page-title">
+                Practice Smarter, <span class="accent">Score Better</span>
+            </h1>
+
+            <p class="page-subtitle">
+                Choose a subject and difficulty, then challenge yourself with 10 questions.
+            </p>
+
+            <div class="card setup-card">
+
+                <div class="field">
+                    <label for="subjectSelect">Select Subject</label>
+
+                    <select id="subjectSelect">
+                        <option value="">Choose a subject</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="difficultySelect">Select Difficulty</label>
+
+                    <select id="difficultySelect">
+                        <option value="">Choose difficulty</option>
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>10</strong>
+                        <span>Questions</span>
+                    </div>
+
+                    <div class="info-item">
+                        <strong>20s</strong>
+                        <span>Per Question</span>
+                    </div>
+
+                    <div class="info-item">
+                        <strong>100</strong>
+                        <span>Total Marks</span>
+                    </div>
+                </div>
+
+                <button id="startQuizBtn" class="btn btn-primary btn-wide" type="button">
+                    Start Quiz →
+                </button>
+
+                <p class="notice">
+                    Your quiz history and mistakes are saved in this browser.
+                </p>
+
+                <p id="homeError" class="message hidden" role="alert"></p>
+
+            </div>
+        </section>
+
+        <!-- Quiz Page -->
+        <section id="quizPage" class="hidden">
+
+            <div class="card quiz-card">
+
+                <div class="quiz-top">
+
+                    <div class="quiz-meta">
+                        <span id="quizLabel">Quiz</span> ·
+                        Question <span id="currentQuestion">1</span>
+                        of <span id="totalQuestions">10</span>
+                    </div>
+
+                    <div id="timerBox" class="timer">
+                        ⏱ <span id="timer">20</span>s
+                    </div>
+
+                </div>
+
+                <div class="progress-track" aria-label="Quiz progress">
+                    <div id="progressBar" class="progress-bar"></div>
+                </div>
+
+                <h2 id="questionText" class="question-text">Question</h2>
+
+                <div id="optionsContainer" class="options"></div>
+
+            </div>
+        </section>
+
+        <!-- Result Page -->
+        <section id="resultPage" class="hidden">
+
+            <div class="card result-card">
+
+                <h1 class="page-title">🏆 Quiz Completed!</h1>
+
+                <p class="page-subtitle" id="resultSubtitle">
+                    Here is your performance.
+                </p>
+
+                <div id="finalScore" class="score-big">0%</div>
+
+                <div class="stats-grid">
+
+                    <div class="stat">
+                        <strong id="correctCount">0</strong>
+                        <span>Correct</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong id="wrongCount">0</strong>
+                        <span>Wrong / Unanswered</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong id="resultHighScore">0%</strong>
+                        <span>High Score</span>
+                    </div>
+
+                </div>
+
+                <h2 class="section-heading">Answer Review</h2>
+
+                <div id="answerReview" class="review-list"></div>
+
+                <div class="action-row">
+                    <button id="restartQuizBtn" class="btn btn-primary" type="button">
+                        Try Another Quiz
+                    </button>
+
+                    <button id="resultHistoryBtn" class="btn btn-secondary" type="button">
+                        View History
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- History Page -->
+        <section id="historyPage" class="hidden">
+
+            <h1 class="page-title">
+                Quiz <span class="accent">History</span>
+            </h1>
+
+            <p class="page-subtitle">
+                Track your progress and identify your strongest subjects.
+            </p>
+
+            <div class="dashboard-stats">
+
+                <div class="card stat">
+                    <strong id="totalQuizStat">0</strong>
+                    <span>Total Quizzes</span>
+                </div>
+
+                <div class="card stat">
+                    <strong id="bestScoreStat">0%</strong>
+                    <span>Best Score</span>
+                </div>
+
+                <div class="card stat">
+                    <strong id="averageScoreStat">0%</strong>
+                    <span>Average Score</span>
+                </div>
+
+            </div>
+
+            <div class="dashboard-grid">
+
+                <div class="card">
+                    <h2 class="section-heading">Score Trend</h2>
+
+                    <div class="chart-wrap">
+                        <canvas id="scoreChart" aria-label="Quiz score trend chart" role="img"></canvas>
+                    </div>
+
+                    <p id="chartFallback" class="small hidden">
+                        Chart.js could not load. Check your internet connection.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h2 class="section-heading">Subject Average</h2>
+                    <div id="subjectAverages" class="avg-list"></div>
+                </div>
+
+            </div>
+
+            <div class="card" style="margin-top:18px">
+
+                <div class="history-header">
+
+                    <h2 class="section-heading">Recent Attempts</h2>
+
+                    <button id="clearHistoryBtn" class="btn btn-danger" type="button">
+                        Clear History
+                    </button>
+
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Subject</th>
+                                <th>Difficulty</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="historyTableBody"></tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Mistake Review Page -->
+        <section id="mistakesPage" class="hidden">
+
+            <h1 class="page-title">
+                Mistake <span class="accent">Review</span>
+            </h1>
+
+            <p class="page-subtitle">
+                Practice only the questions you previously answered incorrectly.
+            </p>
+
+            <div class="card mistake-card">
+
+                <div class="stat">
+                    <strong id="totalMistakes">0</strong>
+                    <span>Questions to practice</span>
+                </div>
+
+                <div id="mistakeSummary" class="mistake-list"></div>
+
+                <button id="practiceMistakesBtn" class="btn btn-primary btn-wide" type="button">
+                    Practice Mistakes →
+                </button>
+
+                <p class="notice">
+                    Correct answers during practice remove those questions from your
+                    mistake list. Practice results do not affect your quiz history.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
